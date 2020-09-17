@@ -1,0 +1,31 @@
+.bg{
+    height: 100vh;
+    background: url('./background.jpg');
+    background-size: 100% 100%;
+}
+.nav-row{
+    position: relative;
+    display: flex;
+    color: rgb(206, 206, 206);
+    height: 4rem;
+    z-index: 3;
+    justify-content: flex-start;
+    align-items: center;
+}
+.right{
+    display: flex;
+}
+.right h2{
+    margin: 0 1rem;
+    color: rgb(206, 206, 206);
+}
+.right img{
+    margin: 0 1rem;
+    height: 3rem;
+    width: 3rem;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+}
+a:hover{
+    text-decoration: none;
+}

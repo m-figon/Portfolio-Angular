@@ -1,0 +1,124 @@
+[
+    {
+        "name": "FitnessTracker",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/fitness.png",
+        "description" :"Goal of this project was creating a fitness app website, which allows users to track calories by adding meals, set nutrition goals, track body weight and workout progress",
+        "technologies": ["React","Chart.js","JavaScript","HTML & CSS","Less"],
+        "github": "https://github.com/m-figon/FitnessTracker",
+        "site": "https://fitness-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=z5oFjV2dn68",
+        "id":0
+    },
+    {
+        "name": "ChatApp",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/chat.png",
+        "description" :"Goal of this project was creating a chat app website, which allows users to enter one of chat channels which are divided by topics (e.g Music, Fitness, Gaming, Gardening), to sign in use account 'test3' and password: 'Test3.user'",
+        "technologies": ["React","Sass","Emoji.js","JavaScript","HTML & CSS"],
+        "github": "https://github.com/m-figon/ChatApp",
+        "site": "https://chat-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=QScXh6dynsI",
+        "id":1
+
+    },
+    {
+        "name": "ClothesShop",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/clothes.png",
+        "description" :"Goal of this project was creating a shopping website which allows user to look for an item, add it to shopping cart and make an order, to sign in use email 'test@gmail.com' and password: 'test123' (login allows to add items to cart, display cart content, make orders)",
+        "technologies": ["Angular","TypeScript","HTML & CSS","Less"],
+        "github": "https://github.com/m-figon/ClothesShop",
+        "site": "https://clothes-shop-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/watch?v=eYi-JxsPTmw&feature=youtu.be",
+        "id":2
+
+    },
+    {
+        "name": "Blog",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/blog.png",
+        "description" :"Goal of this project was to create a blog website using Angular which allows user to read posts, create them, write comments, create new accounts, to sign in use account 'testUser' and password: 'test123' (login allows to comment posts and create new ones)",
+        "technologies": ["Angular","TypeScript","HTML & CSS","Less"],
+        "github": "https://github.com/m-figon/Blog",
+        "site": "https://blog-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=S3BcxnZLfQM&feature=youtu.be",
+        "id":3
+    },
+    {
+        "name": "WebForum",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/forum.png",
+        "description" :"Goal of this project was creating a forum website which allows user to create post and other users to comment it, give it a rating, to sign in use account 'ReactUser' and password: 'hello3' (login allows to upvote, downvote, comment posts)",
+        "technologies": ["React","JavaScript","HTML & CSS", "Sass"],
+        "github": "https://github.com/m-figon/WebForum",
+        "site": "https://forum-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=fg858RzQ2fQ&list=UUhmaqw5MW-CzQw6cishP-vg&index=3",
+        "id":4
+    },
+    {
+        "name": "MovieTheater",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/movie.png",
+        "description" :"Goal of this project was creating a movie theater website which allows user to search for movie, view details information about it, order seats for specific hour, view user's orders. To sign in use account 'testUser' and password: 'TestUser.123'",
+        "technologies": ["Vue","JavaScript","HTML & CSS","Less","VueYoutube"],
+        "github": "https://github.com/m-figon/MovieTheater",
+        "site": "https://movie-theater-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=2HhmHlAzknc",
+        "id":5
+    },
+    {
+        "name": "MusicStreaming",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/music.png",
+        "description" :"Goal of this project was creating a music streaming website which allows user to search for song, choose it, listen to it or add it to playlist when user is logged. User can also change account settings",
+        "technologies": ["Vue","JavaScript","HTML & CSS","Sass","VueYoutube"],
+        "github": "https://github.com/m-figon/MusicStreaming",
+        "site": "https://music-streaming-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/watch?v=ElM9Z-TEG2I",
+        "id":6
+    },
+    {
+        "name": "AdoptAnimal",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/adoptanimal.png",
+        "description" :"This is a website made using jQuery which allows user to look for an animal to adopt, send adoption request, get contact informations",
+        "technologies": ["jQuery","Less","JavaScript","HTML & CSS","Sammy.js"],
+        "github": "https://github.com/m-figon/AdoptAnimal",
+        "site": "https://adopt-animal-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/watch?v=fE9_P8jVh3M",
+        "id":7
+    },
+    {
+        "name": "MusialInstruments",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/instruments.png",
+        "description" :"Goal of this project was creating a music shop website which allows user to search for an instrument, view details information about it, order it, view user's orders. To sign in use account 'testUser' and password: 'TestUser.123'",
+        "technologies": ["AngularJS","Sass","JavaScript","HTML & CSS","moment.js"],
+        "github": "https://github.com/m-figon/MusicalInstruments",
+        "site": "https://musical-instruments-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/watch?v=RI1mmMEAmHQ",
+        "id":8
+    },
+    {
+        "name": "BookHotel",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/bookhotel.png",
+        "description" :"Goal of this project was creating a site for hotels reservation which allows user to search for hotel with free rooms, view details information about it, reserve it for a specific date. To sign in use account 'testUser' and password: 'TestUser.123' (login allows to make order, view orders, add hotel opinion)",
+        "technologies": ["AngularJS","Sass","JavaScript","HTML & CSS","moment.js"],
+        "github": "https://github.com/m-figon/BookHotel",
+        "site": "https://book-hotel-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/watch?v=nPCALG_NkQ4",
+        "id":9
+    },
+    {
+        "name": "Organizer",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/organizer.jpg",
+        "description" :"Goal of this project was creating a to do list app. To sign in use account 'testUser' and password: 'TestUser.123' (login allows to edit and view to do list)",
+        "technologies": ["React Native","JavaScript","underscore.js"],
+        "github": "https://github.com/m-figon/Organizer",
+        "site": "",
+        "youtube": "https://www.youtube.com/watch?v=gaQwphHKVEQ",
+        "id":10
+    },
+    {
+        "name": "Communicator",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/communicator.jpg",
+        "description" :"Goal of this project was creating a communicator app which allows user to add other users to friend list and chat with them. (to acces app functionality user must be logged, To sign in use account 'testUser' and password: 'TestUser.123'",
+        "technologies": ["React Native","JavaScript","moment.js"],
+        "github": "https://github.com/m-figon/Communicator",
+        "site": "",
+        "youtube": "https://www.youtube.com/watch?v=nJQF-gcDXTg",
+        "id":11
+    }
+]

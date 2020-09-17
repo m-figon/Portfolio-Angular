@@ -1,0 +1,15 @@
+.home{
+    position: absolute;
+    height:100vh;
+    top:0;
+    left:20vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: rgb(206, 206, 206);
+}
+.home h1{
+    font-size: 6rem;
+}
