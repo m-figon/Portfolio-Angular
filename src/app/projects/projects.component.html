@@ -1,1 +1,22 @@
-<p>projects works!</p>
+<div [style.backgroundColor]="currentProject ? 'rgba(0, 0, 0, 0.9)':''" class="container-fluid projects">
+    <div class="container project-display row">
+        <div *ngFor="let project of projectsArray" (click)="showProject(project)" class="card col-md-3 bg1 mt-md-4">
+            <div class="col-md-12 bg2 border rounded border-light">
+                <h5 class="card-header font-weight-light">{{project.name}}</h5>
+                <div class="card-body">
+                    <img class="project-img" [src]="project.img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="currentProject" class="container-fluid current-project">
+        <div class="card col-md-4 current-project-bg border rounded border-light">
+            <h5 class="card-header font-weight-light">{{currentProject.name}}</h5>
+            <div class="card-body">
+                <img class="project-img" [src]="currentProject.img">
+                <p class="card-text">{{currentProject.description}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>

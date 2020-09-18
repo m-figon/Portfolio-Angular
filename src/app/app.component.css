@@ -7,7 +7,7 @@
     position: relative;
     display: flex;
     color: rgb(206, 206, 206);
-    height: 4rem;
+    height: 5rem;
     z-index: 3;
     justify-content: flex-start;
     align-items: center;
@@ -28,4 +28,15 @@
 }
 a:hover{
     text-decoration: none;
+}
+.loading{
+    position: absolute;
+    height:100vh;
+    top:0;
+    left:0;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 206, 206);
 }

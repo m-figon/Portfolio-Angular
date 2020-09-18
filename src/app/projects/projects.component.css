@@ -1,0 +1,36 @@
+.projects{
+    position: absolute;
+    height:100vh;
+    top:0;
+    left:0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(206, 206, 206);
+}
+.project-img{
+    height: 100%;
+    width: 100%;
+}
+.bg1{
+    background-color: rgba(0, 0, 0, 0);
+    border:0;
+}
+.bg2{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.current-project{
+    position: absolute;
+    height:100vh;
+    top:0;
+    left:0;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(206, 206, 206);
+}
+.current-project-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+}

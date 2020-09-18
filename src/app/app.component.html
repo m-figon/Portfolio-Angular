@@ -8,25 +8,38 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <style>
- 
+
 </style>
 
 <!-- Toolbar -->
-<div class="container-fluid bg">
+<div *ngIf="!loading" class="container-fluid bg">
   <div class="container">
     <div class="row nav-row">
       <div class="col-7">
       </div>
       <div class="col-5 right">
-        <a routerLink="/"><h2>Home</h2></a>
-        <a routerLink="/about"><h2>About</h2></a>
-        <a routerLink="/projects"><h2>Projects</h2></a>
-        <a routerLink="/contact"><h2>Contact</h2></a>
+        <a routerLink="/">
+          <h2 class="font-weight-light text-monospace text-uppercase">Home</h2>
+        </a>
+        <a routerLink="/about">
+          <h2 class="font-weight-light text-monospace text-uppercase">About</h2>
+        </a>
+        <a routerLink="/projects">
+          <h2 class="font-weight-light text-monospace text-uppercase">Projects</h2>
+        </a>
+        <a routerLink="/contact">
+          <h2 class="font-weight-light text-monospace text-uppercase">Contact</h2>
+        </a>
         <img src="assets/images/github-logo.png">
         <img src="assets/images/linkedin-logo.png">
         <img src="assets/images/cv.svg">
       </div>
     </div>
+  </div>
+</div>
+<div *ngIf="loading" class="container-fluid loading">
+  <div class="spinner-border text-primary" role="status">
+    <span class="sr-only"></span>
   </div>
 </div>
 
