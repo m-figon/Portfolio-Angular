@@ -20,12 +20,15 @@
 .bg2{
     background-color: rgba(0, 0, 0, 0.5);
 }
+.project:hover{
+    cursor: pointer;
+}
 .current-project{
     position: absolute;
     height:100vh;
     top:0;
     left:0;
-    z-index: 4;
+    z-index: 7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,4 +36,24 @@
 }
 .current-project-bg{
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 7;
+}
+.close-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.close-button span:hover{
+    cursor: pointer;
+}
+.line{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.technology{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+.p-tag{
+    margin-top: 1rem;
 }

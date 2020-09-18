@@ -7,14 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-
+import {SafePipe } from './safe.pipe'
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProjectsComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
