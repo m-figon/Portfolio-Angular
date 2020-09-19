@@ -13,29 +13,39 @@
 
 <!-- Toolbar -->
 <div *ngIf="!loading" class="container-fluid bg">
-  <div class="container">
-    <div class="row nav-row">
-      <div class="col-7">
-      </div>
-      <div class="col-5 right">
-        <a routerLink="/">
-          <h2 class="font-weight-light text-monospace text-uppercase">Home</h2>
-        </a>
-        <a routerLink="/about">
-          <h2 class="font-weight-light text-monospace text-uppercase">About</h2>
-        </a>
-        <a routerLink="/projects">
-          <h2 class="font-weight-light text-monospace text-uppercase">Projects</h2>
-        </a>
-        <a routerLink="/contact">
-          <h2 class="font-weight-light text-monospace text-uppercase">Contact</h2>
-        </a>
-        <a href="https://github.com/m-figon"><img src="assets/images/github-logo.png"></a>
-        <a href="https://www.linkedin.com/in/mateusz-figo%C5%84/"><img src="assets/images/linkedin-logo.png"></a>
-        <a href="https://drive.google.com/open?id=1IjOpfUKuKWuPkzt0AXClr1Ivmn4fe7as"><img src="assets/images/cv.svg"></a>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-dark nav-row">
+    <a class="nav-link" [class.active]="currentUrl==='/'" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" [class.active]="currentUrl==='/about'">
+          <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" [class.active]="currentUrl.includes('project')" href="/projects/all" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/projects/react">React</a>
+            <a class="dropdown-item" href="/projects/react-native">React Native</a>
+            <a class="dropdown-item" href="/projects/angular">Angular</a>
+            <a class="dropdown-item" href="/projects/angular-js">Angular JS</a>
+            <a class="dropdown-item" href="/projects/vue">Vue</a>
+            <a class="dropdown-item" href="/projects/jquerry">jQuerry</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/projects/all">All projects</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [class.active]="currentUrl==='/contact'" href="/contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  </div>
+  </nav>
 </div>
 <div *ngIf="loading" class="container-fluid loading">
   <div class="spinner-border text-primary" role="status">

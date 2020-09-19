@@ -11,7 +11,7 @@ const routes: Routes = [
    component: HomeComponent
   },
   {
-    path: 'projects',
+    path: 'projects/:type',
    component: ProjectsComponent
   },
   {

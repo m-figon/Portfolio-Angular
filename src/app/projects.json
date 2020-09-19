@@ -7,6 +7,7 @@
         "github": "https://github.com/m-figon/FitnessTracker",
         "site": "https://fitness-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=z5oFjV2dn68",
+        "framework": "react",
         "id":0
     },
     {
@@ -17,6 +18,7 @@
         "github": "https://github.com/m-figon/ChatApp",
         "site": "https://chat-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=QScXh6dynsI",
+        "framework": "react",
         "id":1
 
     },
@@ -28,6 +30,7 @@
         "github": "https://github.com/m-figon/ClothesShop",
         "site": "https://clothes-shop-mfigon.netlify.app/",
         "youtube": "https://www.youtube.com/watch?v=eYi-JxsPTmw&feature=youtu.be",
+        "framework": "angular",
         "id":2
 
     },
@@ -39,6 +42,7 @@
         "github": "https://github.com/m-figon/Blog",
         "site": "https://blog-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=S3BcxnZLfQM&feature=youtu.be",
+        "framework": "angular",
         "id":3
     },
     {
@@ -49,6 +53,7 @@
         "github": "https://github.com/m-figon/WebForum",
         "site": "https://forum-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=fg858RzQ2fQ&list=UUhmaqw5MW-CzQw6cishP-vg&index=3",
+        "framework": "react",
         "id":4
     },
     {
@@ -59,6 +64,7 @@
         "github": "https://github.com/m-figon/MovieTheater",
         "site": "https://movie-theater-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=2HhmHlAzknc",
+        "framework": "vue",
         "id":5
     },
     {
@@ -69,6 +75,7 @@
         "github": "https://github.com/m-figon/MusicStreaming",
         "site": "https://music-streaming-mfigon.netlify.app/",
         "youtube": "https://www.youtube.com/watch?v=ElM9Z-TEG2I",
+        "framework": "vue",
         "id":6
     },
     {
@@ -79,6 +86,7 @@
         "github": "https://github.com/m-figon/AdoptAnimal",
         "site": "https://adopt-animal-mfigon.netlify.app/",
         "youtube": "https://www.youtube.com/watch?v=fE9_P8jVh3M",
+        "framework": "jquerry",
         "id":7
     },
     {
@@ -89,6 +97,7 @@
         "github": "https://github.com/m-figon/MusicalInstruments",
         "site": "https://musical-instruments-mfigon.netlify.app/",
         "youtube": "https://www.youtube.com/watch?v=RI1mmMEAmHQ",
+        "framework": "angular-js",
         "id":8
     },
     {
@@ -99,6 +108,7 @@
         "github": "https://github.com/m-figon/BookHotel",
         "site": "https://book-hotel-mfigon.netlify.app/",
         "youtube": "https://www.youtube.com/watch?v=nPCALG_NkQ4",
+        "framework": "angular-js",
         "id":9
     },
     {
@@ -109,6 +119,7 @@
         "github": "https://github.com/m-figon/Organizer",
         "site": "",
         "youtube": "https://www.youtube.com/watch?v=gaQwphHKVEQ",
+        "framework": "react-native",
         "id":10
     },
     {
@@ -119,6 +130,7 @@
         "github": "https://github.com/m-figon/Communicator",
         "site": "",
         "youtube": "https://www.youtube.com/watch?v=nJQF-gcDXTg",
+        "framework": "react-native",
         "id":11
     }
 ]
