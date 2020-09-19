@@ -11,6 +11,7 @@ export class ProjectsComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
   projectsArray = [];
   currentProject = null;
+  type="description";
   ngOnInit(): void {
 
     let type = this.route.snapshot.paramMap.get("type");
@@ -30,5 +31,7 @@ export class ProjectsComponent implements OnInit {
   showProject(project) {
     this.currentProject = project;
   }
-
+  setType(val){
+    this.type=val;
+  }
 }

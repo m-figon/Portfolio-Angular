@@ -35,6 +35,30 @@ a:hover{
     background: rgb(9,72,116);
     background: linear-gradient(90deg, rgba(9,72,116,1) 0%, rgba(48,52,55,1) 100%, rgba(0,64,103,1) 100%);
 }
-blue{
-    text-transform: uppercase;
+.dark{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.gray{
+    color: rgba(255,255,255,.5);
+}
+.gray:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.dark:hover{
+    color: rgb(189, 189, 189);
+}
+.navbar a{
+    font-size: 1.5rem;
+}
+a img{
+    width:3rem;
+    height: 3rem;
+    margin: 0 1rem;
+    -webkit-filter: invert(70%); /* Safari/Chrome */
+    filter: invert(70%);
+}
+a img:hover{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%); 
 }

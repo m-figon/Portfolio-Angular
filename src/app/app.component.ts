@@ -16,6 +16,6 @@ ngOnInit(){
     this.loading=false;
     this.currentUrl = this.router.url;
     console.log(this.currentUrl);
-  },2000)
+  },1000)
 }
 }

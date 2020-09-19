@@ -51,12 +51,55 @@
 .line{
     display: flex;
     margin-bottom: 1rem;
+    padding:0;
 }
 .technology{
     background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.2rem;
+    margin: 0 0.5rem;
+}
+.gray{
+    color: rgba(255,255,255,.5);
+}
+.capsule{
+    margin: 0 0.5rem;
+}
+.header-option{
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
 }
-.p-tag{
-    margin-top: 1rem;
+.header-option:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 1300px) {
+    .technology{
+        padding: 0.2rem;
+    margin: 0 0.2rem;
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .bg2 h5{
+        padding: 0.2rem;
+        font-size: 1rem;
+    }
+    .card-body{
+        padding: 0.5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .projects{
+        height: auto;
+        top: 5rem;
+    }
+    .bg1{
+        margin-bottom: 1rem;
+    }
+    .bg2 h5{
+        padding: 1rem;
+        font-size: 1.25rem;
+    }
+    .card-body{
+        padding: 1rem;
+    }
 }

@@ -9,7 +9,7 @@
             </div>
         </div>
     </div>
-    <div *ngIf="currentProject" [style.backdropFilter]="currentProject ? 'blur(4px)':''"
+    <!-- <div *ngIf="currentProject" [style.backdropFilter]="currentProject ? 'blur(4px)':''"
         class="container-fluid current-project">
         <div class="card col-md-4 current-project-bg border rounded border-light">
             <div class="close close-button" aria-label="Close">
@@ -18,16 +18,62 @@
             <h5 class="font-weight-light">{{currentProject.name}}</h5>
             <div class="card-body">
                 <div class="embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fg858RzQ2fQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fg858RzQ2fQ"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
                 <p class="card-text p-tag">{{currentProject.description}}</p>
                 <div class="container-fluid line">
-                    <div *ngFor="let technology of currentProject.technologies" class="badge badge-primary text-wrap border border-light rounded technology">
+                    <div *ngFor="let technology of currentProject.technologies"
+                        class="badge badge-primary text-wrap border border-light rounded technology">
                         {{technology}} </div>
                 </div>
-                <a [href]="currentProject.site" class="btn btn-primary technology border border-light rounded">Try Page</a>
-                <a [href]="currentProject.github" class="btn btn-primary technology border border-light rounded">View Code</a>
+                <a [href]="currentProject.site" class="btn btn-primary technology border border-light rounded">Try
+                    Page</a>
+                <a [href]="currentProject.github" class="btn btn-primary technology border border-light rounded">View
+                    Code</a>
             </div>
+        </div>
+    </div> -->
+    <div *ngIf="currentProject" [style.backdropFilter]="currentProject ? 'blur(4px)':''"
+        class="container-fluid current-project">
+        <div class="card col-md-4 current-project-bg border rounded border-light">
+            <div class="card-header">
+                <div class="close close-button" aria-label="Close">
+                    <span (click)="showProject(null)" aria-hidden="true">&times;</span>
+                </div>
+                <h5 class="font-weight-light">{{currentProject.name}}</h5>
+                <ul class="nav nav-pills card-header-pills">
+                    <li class="nav-item">
+                        <a class="nav-link gray header-option" [class.border]="type==='description'" (click)="setType('description')">Description</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link gray header-option" [class.border]="type==='video'" (click)="setType('video')">Video</a>
+                    </li>
+                </ul>
+            </div>
+            <div *ngIf="type==='description'" class="card-body">
+                <p class="card-text p-tag">{{currentProject.description}}</p>
+                <div class="container-fluid line">
+                    <div *ngFor="let technology of currentProject.technologies"
+                        class="badge badge-primary text-wrap border border-light rounded technology">
+                        {{technology}} </div>
+                </div>
+                <a [href]="currentProject.site" class="btn btn-primary technology border border-light rounded">Try
+                    Page</a>
+                <a [href]="currentProject.github" class="btn btn-primary technology border border-light rounded">View
+                    Code</a>
+            </div>
+            <div *ngIf="type==='video'"  class="card-body">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fg858RzQ2fQ"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            
         </div>
     </div>
 

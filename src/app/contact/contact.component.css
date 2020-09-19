@@ -10,7 +10,6 @@
     color: rgb(206, 206, 206);
 }
 .contact-text{
-    margin-left: 2rem;
     height:16rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -34,4 +33,29 @@
 }
 #mail{
     margin-left: 0.5rem;
+}
+@media only screen and (max-width: 950px) {
+    .contact-text{
+        height:9rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 1.5rem;
+    }
+    .contact-text h2{
+        font-size: 1.2rem;
+    }
+    .contact img{
+        margin-top: 1rem;
+        height: 4rem;
+    width: 4rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .contact-text{
+        padding: 1.0rem;
+        height: 7rem;
+    }
+    .contact-text h2{
+        font-size: 0.8rem;
+    }
 }

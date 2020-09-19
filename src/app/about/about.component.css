@@ -12,11 +12,66 @@
 .about img{
     width: 40rem;
     height:30rem;
+    animation: fadeIn ease 5s infinite;
+    -webkit-animation: fadeIn ease 5s infinite;
+    -moz-animation: fadeIn ease 5s infinite;
+    -o-animation: fadeIn ease 5s infinite;
+    -ms-animation: fadeIn ease 5s infinite;
+   
+    
 }
+@keyframes fadeIn {
+    0% {filter:hue-rotate(40deg);}
+    50% {filter:hue-rotate(0deg);}
+     100% {filter:hue-rotate(40deg);}
+    }
 .about-text{
     margin-left: 2rem;
     width: 40rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 3rem;
+}
+@media only screen and (max-width: 1500px) {
+    .about img{
+        width: 30rem;
+        height:23rem;
+    }
+    .about-text{
+        width: 30rem;
+        padding: 2rem;
+    }
+    .about-text h2{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .about img{
+        width: 20rem;
+        height:15rem;
+    }
+    .about-text{
+        width: 20rem;
+        padding: 1.5rem;
+    }
+    .about-text h2{
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .about-text{
+        padding: 1.2rem;
+    }
+    .about-text h2{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .about{
+        flex-direction: column;
+    }
+    .about-text{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
 }
