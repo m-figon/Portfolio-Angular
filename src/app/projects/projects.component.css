@@ -113,3 +113,15 @@
         padding: 1rem;
     }
 }
+.loading{
+    position: absolute;
+    height:100vh;
+    top:0;
+    left:0;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(9,72,116);
+    background: linear-gradient(90deg, rgba(9,72,116,1) 0%, rgba(48,52,55,1) 100%, rgba(0,64,103,1) 100%);
+}

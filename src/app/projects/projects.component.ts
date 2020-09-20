@@ -11,27 +11,41 @@ export class ProjectsComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
   projectsArray = [];
   currentProject = null;
-  type="description";
+  type = "description";
+  loading = true;
   ngOnInit(): void {
-
-    let type = this.route.snapshot.paramMap.get("type");
-    if (type === 'all') {
-      this.projectsArray = (projects as any).default;
-    } else {
-      let allProjects = (projects as any).default;
-      for (let item of allProjects) {
-        if (item.framework === type) {
-          this.projectsArray.push(item);
+    let type=null;
+    let lastType="";
+    setInterval(() => {
+      lastType = type;
+      type = this.route.snapshot.paramMap.get("type");
+      if(type!==lastType){
+        this.loading = true;
+        setTimeout(()=>{
+          this.loading=false;
+        },300)
+        this.projectsArray = [];
+        if (type === 'all') {
+          this.projectsArray = (projects as any).default;
+        } else {
+          let allProjects = (projects as any).default;
+          for (let item of allProjects) {
+            if (item.framework === type) {
+              this.projectsArray.push(item);
+            }
+          }
         }
       }
-    }
+      
 
-    console.log(this.projectsArray);
+      console.log(this.projectsArray);
+    }, 1000)
+
   }
   showProject(project) {
     this.currentProject = project;
   }
-  setType(val){
-    this.type=val;
+  setType(val) {
+    this.type = val;
   }
 }

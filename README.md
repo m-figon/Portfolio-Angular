@@ -14,7 +14,7 @@ Goal of this website was to show my projects.
 
 ## Netlify app link 
 
-https://portfolio-mfigon.netlify.app/
+https://mfigon-portfolio.netlify.app/
 
 
 

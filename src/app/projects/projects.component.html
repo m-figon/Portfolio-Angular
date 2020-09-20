@@ -1,4 +1,9 @@
 <div class="container-fluid projects">
+    <div *ngIf="loading" class="container-fluid loading">
+        <div class="spinner-border text-primary" role="status">
+          <span class="sr-only"></span>
+        </div>
+      </div>
     <div class="container project-display row">
         <div *ngFor="let project of projectsArray" (click)="showProject(project)" class="card col-md-3 bg1 mt-md-4">
             <div class="col-md-12 bg2 border rounded border-light project">
@@ -9,33 +14,6 @@
             </div>
         </div>
     </div>
-    <!-- <div *ngIf="currentProject" [style.backdropFilter]="currentProject ? 'blur(4px)':''"
-        class="container-fluid current-project">
-        <div class="card col-md-4 current-project-bg border rounded border-light">
-            <div class="close close-button" aria-label="Close">
-                <span (click)="showProject(null)" aria-hidden="true">&times;</span>
-            </div>
-            <h5 class="font-weight-light">{{currentProject.name}}</h5>
-            <div class="card-body">
-                <div class="embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fg858RzQ2fQ"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-                <p class="card-text p-tag">{{currentProject.description}}</p>
-                <div class="container-fluid line">
-                    <div *ngFor="let technology of currentProject.technologies"
-                        class="badge badge-primary text-wrap border border-light rounded technology">
-                        {{technology}} </div>
-                </div>
-                <a [href]="currentProject.site" class="btn btn-primary technology border border-light rounded">Try
-                    Page</a>
-                <a [href]="currentProject.github" class="btn btn-primary technology border border-light rounded">View
-                    Code</a>
-            </div>
-        </div>
-    </div> -->
     <div *ngIf="currentProject" [style.backdropFilter]="currentProject ? 'blur(4px)':''"
         class="container-fluid current-project">
         <div class="card col-md-4 current-project-bg border rounded border-light">
