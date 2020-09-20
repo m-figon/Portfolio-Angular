@@ -6,7 +6,7 @@
         "technologies": ["React","Chart.js","JavaScript","HTML & CSS","Less"],
         "github": "https://github.com/m-figon/FitnessTracker",
         "site": "https://fitness-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=z5oFjV2dn68",
+        "youtube": "https://www.youtube.com/embed/z5oFjV2dn68",
         "framework": "react",
         "id":0
     },
@@ -17,7 +17,7 @@
         "technologies": ["React","Sass","Emoji.js","JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/ChatApp",
         "site": "https://chat-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=QScXh6dynsI",
+        "youtube": "https://www.youtube.com/embed/QScXh6dynsI",
         "framework": "react",
         "id":1
 
@@ -29,7 +29,7 @@
         "technologies": ["Angular","TypeScript","HTML & CSS","Less"],
         "github": "https://github.com/m-figon/ClothesShop",
         "site": "https://clothes-shop-mfigon.netlify.app/",
-        "youtube": "https://www.youtube.com/watch?v=eYi-JxsPTmw&feature=youtu.be",
+        "youtube": "https://www.youtube.com/embed/eYi-JxsPTmw",
         "framework": "angular",
         "id":2
 
@@ -41,7 +41,7 @@
         "technologies": ["Angular","TypeScript","HTML & CSS","Less"],
         "github": "https://github.com/m-figon/Blog",
         "site": "https://blog-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=S3BcxnZLfQM&feature=youtu.be",
+        "youtube": "https://www.youtube.com/embed/S3BcxnZLfQM",
         "framework": "angular",
         "id":3
     },
@@ -52,7 +52,7 @@
         "technologies": ["React","JavaScript","HTML & CSS", "Sass"],
         "github": "https://github.com/m-figon/WebForum",
         "site": "https://forum-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=fg858RzQ2fQ&list=UUhmaqw5MW-CzQw6cishP-vg&index=3",
+        "youtube": "https://www.youtube.com/embed/fg858RzQ2fQ",
         "framework": "react",
         "id":4
     },
@@ -63,7 +63,7 @@
         "technologies": ["Vue","JavaScript","HTML & CSS","Less","VueYoutube"],
         "github": "https://github.com/m-figon/MovieTheater",
         "site": "https://movie-theater-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=2HhmHlAzknc",
+        "youtube": "https://www.youtube.com/embed/2HhmHlAzknc",
         "framework": "vue",
         "id":5
     },
@@ -74,7 +74,7 @@
         "technologies": ["Vue","JavaScript","HTML & CSS","Sass","VueYoutube"],
         "github": "https://github.com/m-figon/MusicStreaming",
         "site": "https://music-streaming-mfigon.netlify.app/",
-        "youtube": "https://www.youtube.com/watch?v=ElM9Z-TEG2I",
+        "youtube": "https://www.youtube.com/embed/ElM9Z-TEG2I",
         "framework": "vue",
         "id":6
     },
@@ -85,7 +85,7 @@
         "technologies": ["jQuery","Less","JavaScript","HTML & CSS","Sammy.js"],
         "github": "https://github.com/m-figon/AdoptAnimal",
         "site": "https://adopt-animal-mfigon.netlify.app/",
-        "youtube": "https://www.youtube.com/watch?v=fE9_P8jVh3M",
+        "youtube": "https://www.youtube.com/embed/fE9_P8jVh3M",
         "framework": "jquerry",
         "id":7
     },
@@ -96,7 +96,7 @@
         "technologies": ["AngularJS","Sass","JavaScript","HTML & CSS","moment.js"],
         "github": "https://github.com/m-figon/MusicalInstruments",
         "site": "https://musical-instruments-mfigon.netlify.app/",
-        "youtube": "https://www.youtube.com/watch?v=RI1mmMEAmHQ",
+        "youtube": "https://www.youtube.com/embed/RI1mmMEAmHQ",
         "framework": "angular-js",
         "id":8
     },
@@ -107,7 +107,7 @@
         "technologies": ["AngularJS","Sass","JavaScript","HTML & CSS","moment.js"],
         "github": "https://github.com/m-figon/BookHotel",
         "site": "https://book-hotel-mfigon.netlify.app/",
-        "youtube": "https://www.youtube.com/watch?v=nPCALG_NkQ4",
+        "youtube": "https://www.youtube.com/embed/nPCALG_NkQ4",
         "framework": "angular-js",
         "id":9
     },
@@ -118,7 +118,7 @@
         "technologies": ["React Native","JavaScript","underscore.js"],
         "github": "https://github.com/m-figon/Organizer",
         "site": "",
-        "youtube": "https://www.youtube.com/watch?v=gaQwphHKVEQ",
+        "youtube": "https://www.youtube.com/embed/gaQwphHKVEQ",
         "framework": "react-native",
         "id":10
     },
@@ -129,7 +129,7 @@
         "technologies": ["React Native","JavaScript","moment.js"],
         "github": "https://github.com/m-figon/Communicator",
         "site": "",
-        "youtube": "https://www.youtube.com/watch?v=nJQF-gcDXTg",
+        "youtube": "https://www.youtube.com/embed/nJQF-gcDXTg",
         "framework": "react-native",
         "id":11
     }

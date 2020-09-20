@@ -11,11 +11,12 @@ export class AppComponent implements OnInit{
   loading=true;
   constructor(private router: Router) { }
   currentUrl="/";
+  
 ngOnInit(){
   setTimeout(()=>{
     this.loading=false;
     this.currentUrl = this.router.url;
     console.log(this.currentUrl);
-  },1000)
+  },500)
 }
 }

@@ -6,7 +6,8 @@
     z-index: 2;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 15rem;
     color: rgb(206, 206, 206);
 }
 .contact-text{

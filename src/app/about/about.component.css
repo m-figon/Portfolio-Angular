@@ -6,7 +6,8 @@
     z-index: 2;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 10rem;
     color: rgb(206, 206, 206);
 }
 .about img{
@@ -17,7 +18,8 @@
     -moz-animation: fadeIn ease 5s infinite;
     -o-animation: fadeIn ease 5s infinite;
     -ms-animation: fadeIn ease 5s infinite;
-   
+    border-radius:52% 48% 25% 75% / 17% 10% 90% 83%  ;
+    border: 3px solid rgba(255,255,255,.5);
     
 }
 @keyframes fadeIn {
@@ -31,6 +33,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 3rem;
+    
 }
 @media only screen and (max-width: 1500px) {
     .about img{
@@ -69,6 +72,8 @@
 @media only screen and (max-width: 750px) {
     .about{
         flex-direction: column;
+        justify-content: flex-start;
+    align-items: center;
     }
     .about-text{
         margin-left: 0;
