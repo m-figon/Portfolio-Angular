@@ -3,7 +3,6 @@
     height:100vh;
     top:0;
     left:15vw;
-    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -12,6 +11,9 @@
 }
 .home h1{
     font-size: 8rem;
+}
+.dark2{
+    width: 5rem;
 }
 .home h2,
 .home h1{

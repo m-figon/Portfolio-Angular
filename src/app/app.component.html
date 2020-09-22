@@ -25,32 +25,32 @@
           <a class="nav-link" routerLink="/about">About <span class="sr-only">(current)</span></a>
         </li>
         
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" id="width-adjust">
           <a class="nav-link dropdown-toggle" [class.active]="currentUrl.includes('project')"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Projects
           </a>
-          <div class="dropdown-menu dark" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item gray" routerLink="/projects/react">React</a>
-            <a class="dropdown-item gray" routerLink="/projects/react-native">React Native</a>
-            <a class="dropdown-item gray" routerLink="/projects/angular">Angular</a>
-            <a class="dropdown-item gray" routerLink="/projects/angular-js">Angular JS</a>
-            <a class="dropdown-item gray" routerLink="/projects/vue">Vue</a>
-            <a class="dropdown-item gray" routerLink="/projects/jquerry">jQuerry</a>
+          <div class="dropdown-menu dark" id="width-adjust" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item gray"  id="width-adjust" routerLink="/projects/react">React</a>
+            <a class="dropdown-item gray"   id="width-adjust"routerLink="/projects/react-native">React Native</a>
+            <a class="dropdown-item gray"   id="width-adjust"routerLink="/projects/angular">Angular</a>
+            <a class="dropdown-item gray"   id="width-adjust"routerLink="/projects/angular-js">Angular JS</a>
+            <a class="dropdown-item gray"   id="width-adjust"routerLink="/projects/vue">Vue</a>
+            <a class="dropdown-item gray"   id="width-adjust"routerLink="/projects/jquerry">jQuerry</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item gray" routerLink="/projects/all">All projects</a>
+            <a class="dropdown-item gray"  id="width-adjust" routerLink="/projects/all">All projects</a>
           </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item gray"  id="width-adjust">
           <a class="nav-link" [class.active]="currentUrl==='/contact'" routerLink="/contact">Contact</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item gray"  id="width-adjust">
           <a href="https://github.com/m-figon/"><img src="assets/images/github-logo.png"></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item gray"  id="width-adjust">
           <a href="https://www.linkedin.com/in/mateusz-figo%C5%84/"><img src="assets/images/linkedin-logo.png"></a>
         </li>
-        <li class="nav-item">
-          <a href="https://drive.google.com/open?id=1IjOpfUKuKWuPkzt0AXClr1Ivmn4fe7as"><img src="assets/images/cv.svg"></a>
+        <li class="nav-item gray"  id="width-adjust">
+          <a href="https://drive.google.com/file/d/1Fe6doNdJCfEZdo_jF4nVzpm2vSi6oG9n/view?usp=sharing"><img src="assets/images/cv.svg"></a>
         </li>
       </ul>
     </div>

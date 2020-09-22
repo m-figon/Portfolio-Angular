@@ -71,6 +71,7 @@
 }
 @media only screen and (max-width: 750px) {
     .about{
+        padding-top: 3rem;
         flex-direction: column;
         justify-content: flex-start;
     align-items: center;
