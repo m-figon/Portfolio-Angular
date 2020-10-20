@@ -15,7 +15,16 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 3rem;
+    animation:  showText ease 4s;
+    -webkit-animation: showText ease 4s;
+    -moz-animation: showText ease 4s;
+    -o-animation: showText ease 4s;
+    -ms-animation: showText ease 4s;
 }
+@keyframes showText {
+    0% {filter: blur(3px);}
+    100% {filter: blur(0px);}
+    }
 .email-picture{
     margin-top: -3.5rem;
     display: flex;

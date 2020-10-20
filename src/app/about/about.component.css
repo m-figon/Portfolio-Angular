@@ -13,27 +13,34 @@
 .about img{
     width: 40rem;
     height:30rem;
-    animation: fadeIn ease 5s infinite;
-    -webkit-animation: fadeIn ease 5s infinite;
-    -moz-animation: fadeIn ease 5s infinite;
-    -o-animation: fadeIn ease 5s infinite;
-    -ms-animation: fadeIn ease 5s infinite;
+     animation: fadeIn ease 5s infinite, showText ease 4s;
+    -webkit-animation: fadeIn ease 5s infinite, showText ease 4s;
+    -moz-animation: fadeIn ease 5s infinite, showText ease 4s;
+    -o-animation: fadeIn ease 5s infinite, showText ease 4s;
+    -ms-animation: fadeIn ease 5s infinite, showText ease 4s; 
     border-radius:52% 48% 25% 75% / 17% 10% 90% 83%  ;
     border: 3px solid rgba(255,255,255,.5);
-    
 }
 @keyframes fadeIn {
     0% {filter:hue-rotate(40deg);}
     50% {filter:hue-rotate(0deg);}
      100% {filter:hue-rotate(40deg);}
     }
+        @keyframes showText {
+            0% {filter: blur(3px);}
+            100% {filter: blur(0px);}
+            }
 .about-text{
     margin-left: 2rem;
     width: 40rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 3rem;
-    
+    animation:  showText ease 4s;
+    -webkit-animation: showText ease 4s;
+    -moz-animation: showText ease 4s;
+    -o-animation: showText ease 4s;
+    -ms-animation: showText ease 4s;
 }
 @media only screen and (max-width: 1500px) {
     .about img{

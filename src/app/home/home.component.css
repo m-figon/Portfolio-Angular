@@ -9,8 +9,17 @@
     flex-direction: column;
     color: rgb(206, 206, 206);
 }
+@keyframes showText {
+    0% {filter: blur(3px);}
+    100% {filter: blur(0px);}
+    }
 .home h1{
     font-size: 8rem;
+    animation:  showText ease 5s;
+    -webkit-animation: showText ease 5s;
+    -moz-animation: showText ease 5s;
+    -o-animation: showText ease 5s;
+    -ms-animation: showText ease 5s;
 }
 .dark2{
     width: 5rem;
@@ -18,7 +27,11 @@
 .home h2,
 .home h1{
     text-shadow: 1px 1px 7px rgb(141, 187, 230);
-
+    animation:  showText ease 5s;
+    -webkit-animation: showText ease 5s;
+    -moz-animation: showText ease 5s;
+    -o-animation: showText ease 5s;
+    -ms-animation: showText ease 5s;
 }
 @media only screen and (max-width: 1100px) {
     .home{

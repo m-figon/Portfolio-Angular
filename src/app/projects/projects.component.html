@@ -38,7 +38,7 @@
                         class="badge badge-primary text-wrap border border-light rounded technology">
                         {{technology}} </div>
                 </div>
-                <a [href]="currentProject.site" class="btn btn-primary technology border border-light rounded">Try
+                <a [href]="currentProject.site" *ngIf="currentProject.site!==''" class="btn btn-primary technology border border-light rounded">Try
                     Page</a>
                 <a [href]="currentProject.github" class="btn btn-primary technology border border-light rounded">View
                     Code</a>

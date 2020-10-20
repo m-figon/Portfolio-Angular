@@ -9,7 +9,19 @@
     align-items: flex-start;
     padding-top: 10rem;
     color: rgb(206, 206, 206);
+    
 }
+.project{
+    animation:  showText ease 4s;
+    -webkit-animation: showText ease 4s;
+    -moz-animation: showText ease 4s;
+    -o-animation: showText ease 4s;
+    -ms-animation: showText ease 4s;
+}
+    @keyframes showText {
+        0% {filter: opacity(10%);}
+        100% {filter: opacity(100%);}
+        }
 .project-img{
     height: 100%;
     width: 100%;
