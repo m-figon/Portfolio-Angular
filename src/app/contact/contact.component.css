@@ -15,15 +15,15 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 3rem;
-    animation:  showText ease 4s;
-    -webkit-animation: showText ease 4s;
-    -moz-animation: showText ease 4s;
-    -o-animation: showText ease 4s;
-    -ms-animation: showText ease 4s;
+    animation:  showText ease 5s;
+    -webkit-animation: showText ease 5s;
+    -moz-animation: showText ease 5s;
+    -o-animation: showText ease 5s;
+    -ms-animation: showText ease 5s;
 }
 @keyframes showText {
-    0% {filter: blur(3px);}
-    100% {filter: blur(0px);}
+    0% {filter: opacity(10%);}
+    100% {filter: opacity(100%);}
     }
 .email-picture{
     margin-top: -3.5rem;

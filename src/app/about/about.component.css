@@ -26,10 +26,10 @@
     50% {filter:hue-rotate(0deg);}
      100% {filter:hue-rotate(40deg);}
     }
-        @keyframes showText {
-            0% {filter: blur(3px);}
-            100% {filter: blur(0px);}
-            }
+    @keyframes showText {
+        0% {filter: opacity(10%);}
+        100% {filter: opacity(100%);}
+        }
 .about-text{
     margin-left: 2rem;
     width: 40rem;

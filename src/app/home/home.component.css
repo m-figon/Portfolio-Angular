@@ -10,8 +10,8 @@
     color: rgb(206, 206, 206);
 }
 @keyframes showText {
-    0% {filter: blur(3px);}
-    100% {filter: blur(0px);}
+    0% {filter: opacity(10%);}
+    100% {filter: opacity(100%);}
     }
 .home h1{
     font-size: 8rem;
