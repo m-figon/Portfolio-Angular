@@ -54,6 +54,7 @@ a img{
     margin: 0 1rem;
     -webkit-filter: invert(70%); /* Safari/Chrome */
     filter: invert(70%);
+    transition: filter 500ms;
 }
 a img:hover{
     -webkit-filter: invert(100%); /* Safari/Chrome */
