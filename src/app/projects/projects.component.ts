@@ -26,7 +26,12 @@ export class ProjectsComponent implements OnInit {
         },300)
         this.projectsArray = [];
         if (type === 'all') {
-          this.projectsArray = (projects as any).default;
+          let allProjects = (projects as any).default;
+          for (let item of allProjects) {
+            if (item.framework !== 'vanilla-js') {
+              this.projectsArray.push(item);
+            }
+          }
         } else {
           let allProjects = (projects as any).default;
           for (let item of allProjects) {

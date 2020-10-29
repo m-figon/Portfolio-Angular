@@ -132,5 +132,49 @@
         "youtube": "https://www.youtube.com/embed/nJQF-gcDXTg",
         "framework": "react-native",
         "id":11
+    },
+    {
+        "name": "Draughts",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/draughts.png",
+        "description" :"Goal of this project was creating a simple draughts game using vanilla js (doesnt work on mobile phones)",
+        "technologies": ["JavaScript","HTML & CSS", "Jest","Babel & Webpack"],
+        "github": "https://github.com/m-figon/JS-TSMiniProjects/tree/master/Draughts",
+        "site": "https://draughts-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/embed/IUuQ3zqLEVk",
+        "framework": "vanilla-js",
+        "id":12
+    },
+    {
+        "name": "FastTyping",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/typer.png",
+        "description" :"This app makes it possible to practice fast typing skill, user has a strict ammount of time to enter random phrase, to send answer press enter",
+        "technologies": ["JavaScript","HTML & CSS"],
+        "github": "https://github.com/m-figon/JSMiniProjects/tree/master/FastTyping",
+        "site": "https://fast-typing-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/embed/QNE5u1xaTDY",
+        "framework": "vanilla-js",
+        "id":13
+    },
+    {
+        "name": "Piano",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/piano.png",
+        "description" :"This app makes it possible to play piano and choosing in which octave user wants to play, to play notes click on buttoms or use keys: 1,2,3,4,5,6,7,8,9,0,-,= (third octave), q,w,e,r,t,y,u,i,o,p,[,] (fourth octave), a,s,d,f,g,h,j,k,l (fifth octave)",
+        "technologies": ["JavaScript","HTML & CSS"],
+        "github" :"https://github.com/m-figon/JSMiniProjects/tree/master/Piano",
+        "site": "https://piano-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/embed/FZkt_0WmrbU",
+        "framework": "vanilla-js",
+        "id":14
+    },
+    {
+        "name": "Snake",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/snake.png",
+        "description" :"This is a simple snake game using canvas, to start new game press start, to move use arrow keys on keyboard (doesnt work on mobile phones)",
+        "technologies": ["JavaScript","HTML & CSS"],
+        "github": "https://github.com/m-figon/JSMiniProjects/tree/master/Snake",
+        "site": "https://snake-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/embed/Tol3exA_25w",
+        "framework": "vanilla-js",
+        "id":15
     }
 ]
